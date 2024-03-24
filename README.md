@@ -44,7 +44,7 @@ After=network.target
 
 [Service]
 Type=oneshot
-ExecStart=/home/bigmj/startup_script.sh
+ExecStart=/usr/local/bin/startup_script.sh
 
 [Install]
 WantedBy=multi-user.target
